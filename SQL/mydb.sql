@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
--- 產生時間： 2026-01-11 11:49:07
+-- 產生時間： 2026-01-11 17:51:12
 -- 伺服器版本： 10.4.32-MariaDB
 -- PHP 版本： 8.2.12
 
@@ -112,7 +112,8 @@ INSERT INTO `students` (`sno`, `name`, `address`, `birthday`, `username`, `passw
 ('S004', '蔡依玲', '台北市大安區', '1998-07-22', 'jolin', '1234'),
 ('S005', '張會妹', '台北市信義區', '1999-03-01', 'chiang', '1234'),
 ('S006', '張無忌', '台北市內湖區', '2000-03-01', 'chiang1234', '1234'),
-('S044', '劉宥成', '台中市東區', '2007-06-17', 'you___0617', '0617');
+('S044', '劉宥成', '台中市東區', '2007-06-17', 'you___0617', '0617'),
+('S999', 'admin', '******', '2026-01-01', 'admin', 'admin');
 
 --
 -- 已傾印資料表的索引
@@ -144,7 +145,7 @@ ALTER TABLE `students`
 -- 使用資料表自動遞增(AUTO_INCREMENT) `album`
 --
 ALTER TABLE `album`
-  MODIFY `album_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1000;
+  MODIFY `album_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1001;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
