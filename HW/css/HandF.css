@@ -1,0 +1,17 @@
+header {
+    position: fixed;
+    left:0;
+    top:0;
+    background-color: #D4F0FC;
+    width:100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 1px dotted #FFFFFF;
+    z-index:9999;
+}
+footer {
+    text-align:center;
+    clear: both;
+}
+#wrap{
+    margin-bottom:125px;
+}

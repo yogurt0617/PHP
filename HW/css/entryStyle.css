@@ -1,0 +1,127 @@
+
+body {
+    background: #F8F0E3;
+}
+
+a {
+    color: #df4839;
+}
+a:hover {
+    color: #ff705b;
+    text-decoration: none;
+}
+
+header,nav,footer {
+    text-align: center;
+}
+
+h1 {
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid #95dbbd;
+    background-color: #6fbb9a;
+    color: #fff;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px #307657;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-image: linear-gradient(to bottom, #6fbb9a, #4a9d79);
+    font-family: 'Limelight', cursive;
+}
+
+#contents {
+    width: 798px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 3px solid #000000;
+    background-color: #fff;
+}
+
+.entryTable {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 2px solid #CCCCCC;
+    border-collapse: collapse;
+}
+.entryTable th,
+.entryTable td {
+    padding: 10px 20px;
+    border: 1px solid #CCCCCC;
+}
+.entryTable th {
+    width: 10em;
+    background-color: #F5F5F5;
+    text-align: left;
+}
+.entryTable caption {
+    margin-bottom: 10px;
+}
+
+.entryTable input[type="text"],
+.entryTable input[type="email"],
+.entryTable textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+.entryTable input[type="text"]:focus,
+.entryTable input[type="email"]:focus,
+▼.entryTable textarea:focus {
+    background-color: #ffffee;
+    outline: none;
+    border-left: 5px solid #ffa700;
+}
+
+label,
+input,
+textarea,
+select {
+    cursor: pointer;
+}
+
+.entryBtns {
+    text-align: center;
+}
+.entryBtns input {
+    width: 100px;
+}
+.entryBtns input {
+    width: 200px;
+    margin: 0 10px;
+    padding: 10px;
+    background: #ffffff;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    font-size: 1em;
+}
+.entryBtns input[type="submit"] {
+    background: #DDDD;
+}
+.entryBtns input:hover {
+    opacity: 0.7;
+    font-weight: bold;
+}
+.preview-img { 
+    max-width: 300px; 
+    height: auto; 
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+}
+.backBtn{
+    width: 200px;
+    margin: 0 10px;
+    padding: 10px;
+    background: #DDDD;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.backBtn:hover{
+    opacity: 0.7;
+    font-weight: bold;
+}

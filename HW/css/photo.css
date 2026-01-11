@@ -1,0 +1,30 @@
+body{
+    background: #F8F0E3;
+}
+.card {
+    position: relative;
+    z-index: 1;
+    margin: 10px auto;
+    min-width: 400px;
+    max-width: 600px;
+    width: 70%;
+    border: solid silver 1px;
+}
+
+.card-header {
+    border-top: solid silver 1px;
+    padding: 20px 10px;
+    background-color: #eaeaea;
+}
+
+.card-body {
+    background-color: white;
+    padding: 10px;
+}
+#photo{
+    text-align: center;
+    width:75%;
+    margin: auto;
+    background-color: #ffff;
+    border: 3px black solid;
+}

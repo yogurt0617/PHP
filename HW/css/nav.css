@@ -1,0 +1,68 @@
+#logo{
+    width:80px;
+    margin-left: 2px;
+    float:left;
+}
+#logoimg{
+    width:70px;
+    height:70px;
+}
+nav{
+    float:left;
+    margin: 15px 30px;
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu {
+    font-family: '標楷體';
+    font-size: 20px;
+    color: white;
+}
+
+.menu > li {
+    float: left;
+    position: relative;
+    padding: 0px;
+    border: 0px;
+    margin: 0px 10px;
+    min-width: 140px;
+}
+
+.menu ul {
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    display:none;
+}
+
+.menu ul li ul {
+    z-index: 20;
+    top: 5%;
+    left: 100%;
+    min-width: 150px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-image: url(../img/btnBg1.jpg);
+    background-size: cover;
+    color: black;
+}
+
+.menu a:hover {
+    background-image: url(../img/btnBg2.jpg);
+    background-size: cover;
+    color: white;
+    font-weight:600;
+}
+
+.menu li:hover > ul {
+    display: block;
+}

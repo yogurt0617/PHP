@@ -1,0 +1,83 @@
+body {
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 20px;
+    font-family: "Microsoft JhengHei", sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 80px auto 20px auto;
+    background: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+    border-left: 5px solid #333;
+    padding-left: 15px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ececec;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #555;
+}
+
+tr:hover {
+    background-color: #fdfdfd;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="date"], 
+input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 250px;
+}
+
+.btn-link{
+    display: inline-block;
+    padding: 6px 15px;
+    border: 2px solid #bbb;
+    background: #fdfdfd;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.btn-link:hover{
+    opacity: 0.7;
+}
+#contents a {
+    margin: 0 5px;
+    padding: 8px 15px;
+    min-width: 20px;
+    text-align: center;
+    color: #93b8fe;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.info-bar {
+    margin-bottom: 15px;
+    color: #a9a9a9;
+    font-size: 14px;
+    font-weight: bold;
+}

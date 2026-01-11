@@ -1,0 +1,19 @@
+@charset "utf-8";
+body {
+    background-color: #F8F0E3;
+    margin: 0px;
+    padding: 0px;
+}
+.clearheader::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#contents {
+    width: 988px;
+    margin: 100px auto;
+    padding: 40px 80px;
+    border: 1px solid #f6bb9e;
+    background-color: #fff;
+    text-align: center;
+}
